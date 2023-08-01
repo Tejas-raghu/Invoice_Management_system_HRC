@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.MuiBox-root-6 {
+  padding: 0;
+}
+.MuiDataGrid-root {
+  color: white;
+}
+
+.table-container {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  background-color: #666666;
+  /* width: 100%; */
+  overflow-x: auto;
+  display: block;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #575757;
+  border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #494848;
+}
+
+.MuiDataGrid-root .MuiDataGrid-columnHeaderTitle {
+  white-space: wrap !important;
+  line-height: initial !important;
+  color: white;
+}
+
+.MuiDataGrid-root .MuiDataGrid-cellCheckbox .Mui-checked {
+  color: white;
+}
+
+.MuiDataGrid-root .MuiDataGrid-cell {
+  /* Customize the font color */
+  color: white;
+}
+.MuiDataGrid-root .MuiDataGrid-columnHeader,
+.MuiDataGrid-root .MuiDataGrid-columnHeaderTitle {
+  border-bottom: none;
+}
